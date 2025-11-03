@@ -17,8 +17,8 @@ sonuç = int(yas)<18
 print(sonuç)
 
 #4.Dikdörtgenin alanını ve çevresini hesaplayan program
-kisa_kenar = float(input("28: "))
-uzun_kenar = float(input("68: "))
+kisa_kenar = float(input("36: "))
+uzun_kenar = float(input("66: "))
 alan = kisa_kenar * uzun_kenar
 cevre = 2 * (kisa_kenar + uzun_kenar)
 print("Alan:", alan)
@@ -75,3 +75,4 @@ sayi = int(input("Bir sayı girin: "))
 bolunur_mu = (sayi % 4 == 0) and (sayi % 10== 0)
 
 print("Sayı hem 4'e hem de 10'e tam bölünüyor mu?", bolunur_mu)
+
