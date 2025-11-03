@@ -5,8 +5,8 @@ tam_ad = ad + " " + soyad
 print("Tam adınız:", tam_ad)
 
 #2.İki sayının toplamı, farkı ve çarpımı
-x = 50
-y = 20
+x = 30
+y = 10
 print(x + y)
 print(x - y)
 print(x * y)
@@ -63,8 +63,8 @@ alan = pi * (yaricap ** 2)
 print("Dairenin alanı:", alan)
 
 #11.İki sayının eşit olup olmadığını ve birincinin ikinciden büyük olup olmadığını gösteren program
-sayi1 = int(input("1.15: "))
-sayi2 = int(input("2. 15: "))
+sayi1 = int(input("1.30: "))
+sayi2 = int(input("2. 30: "))
 esit_mi = (sayi1 == sayi2)
 birinci_buyuk_mu = (sayi1 > sayi2)
 print("İki sayı eşit mi?", esit_mi)
@@ -73,4 +73,5 @@ print("Birinci sayı ikinciden büyük mü?", birinci_buyuk_mu)
 #12.Bir sayının hem 3’e hem de 5’e tam bölünüp bölünmediğini kontrol eden program
 sayi = int(input("Bir sayı girin: "))
 bolunur_mu = (sayi % 4 == 0) and (sayi % 10== 0)
+
 print("Sayı hem 4'e hem de 10'e tam bölünüyor mu?", bolunur_mu)
