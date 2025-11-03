@@ -25,7 +25,7 @@ print("Alan:", alan)
 print("Çevre:", cevre)
 
 #5. Girilen bir sayının pozitif olup olmadığını kontrol eden program.
-sayi = float(input("24: "))
+sayi = float(input("29: "))
 pozitif_mi = 10 > 0
 print("Sayı pozitif mi?", pozitif_mi)
 
@@ -44,8 +44,8 @@ ortalama = sayi_1 + sayi_2
 print(ortalama)
 
 #8.Kullanıcının girdiği iki sayının her ikisinin de çift sayı olup olmadığını kontrol eden program
-sayi1 = int(input("1. 44: "))
-sayi2 = int(input("2. 22: "))
+sayi1 = int(input("1. 22: "))
+sayi2 = int(input("2. 56: "))
 sonuç = (sayi1 % 2 == 0) and (sayi2 % 2 == 0)
 print("Her iki sayı da çift mi?", sonuç)
 
@@ -75,4 +75,5 @@ sayi = int(input("Bir sayı girin: "))
 bolunur_mu = (sayi % 4 == 0) and (sayi % 10== 0)
 
 print("Sayı hem 4'e hem de 10'e tam bölünüyor mu?", bolunur_mu)
+
 
